@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #78DCCC;
+}
+
+button {
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.Intro {
+  border-radius: 40%;
+  font-size: xx-large;
+  color: aqua;
+  background-color: white;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px;
+  
+}
+
+.imageSection {
+  padding-top: 250px;
+  background-image: url("iceberg_back.jpg");
+  margin-top: 0;
+}
+.EntrySection {
+  background-color: #47B9EB;
+  margin-top: 0;
+  padding: 10px;
+  padding-bottom: 292px;
+}
+.User-list {
+  list-style: none;
+}
+
+.Avatar {
+  text-align: center;
+}
+
+.Avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+}
+
+.Avatar h4 {
+  text-transform: capitalize;
+  color: white;
+}
+
